@@ -29,11 +29,16 @@ public static class Programm
                     }
                 }
                 Array.Sort(number);
-                for (int i = number.Length - 2; i > 0; i--)
+                for (int i = number.Length - 2; i >= 0; i--)
                 {
                     if (number[i] != number[i + 1])
                     {
                         Console.WriteLine($"\nВторое наибольшее число в массиве: {number[i]}");
+                        break;
+                    }
+                    else if (i == 0)
+                    {
+                        Console.WriteLine($"\nВсе числа одинаковые");
                         break;
                     }
                 }
