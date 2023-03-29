@@ -8,12 +8,12 @@ using System.Xml.Linq;
 namespace HomeWork3;
 public class Ortoped : Dentists
 {
-    new public string surname = "Риповский";
-    new public string name = "Сергей";
-    new public string patronymic = "Игоревич";
-    new public int age = 29;
-    new public int experience = 6;
-    new public string university = "НГМУ";
+    string surname = "Риповский";
+    string name = "Сергей";
+    string patronymic = "Игоревич";
+    int age = 29;
+    int experience = 6;
+    string university = "НГМУ";
     public Ortoped(string surname)
     {
         this.surname = surname;
