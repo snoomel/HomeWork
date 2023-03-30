@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace HomeWork3;
 public class Patient
 {
-    public string surname = "Неизвестно";
-    public string name = "Неизвестно";
-    public string patronymic = "Неизвестно";
-    public int age;
-    public string cityOfresidence = "Неизвестно";
+    string surname = "Неизвестно";
+    string name = "Неизвестно";
+    string patronymic = "Неизвестно";
+    int age;
+    string cityOfresidence = "Неизвестно";
     public string health = "Неизвестно";
     public Patient(string surname, string name, string patronymic, int age, string cityOfresidence)
     {

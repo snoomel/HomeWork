@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace HomeWork3;
 public class Terapist : Dentists
 {
-    new public string surname = "Кищук";
-    new public string name = "Татьяна";
-    new public string patronymic = "Павловна";
-    new public int age = 37;
-    new public int experience = 15;
-    new public string university = "ОГМУ";
+    string surname = "Кищук";
+    string name = "Татьяна";
+    string patronymic = "Павловна";
+    int age = 37;
+    int experience = 15;
+    string university = "ОГМУ";
     public Terapist(string surname)
     {
         this.surname = surname;

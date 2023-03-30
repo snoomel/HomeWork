@@ -20,7 +20,7 @@ public static class Program
         patient.DisplayInfo();
         patient.ChooseADentist();
         Console.WriteLine("Вы выбрали врача и автоматически встали в очередь!");
-        Terapist dentist1 = new Terapist("Кищук");
+        Dentists dentist1 = new Terapist("Кищук");
         dentist1.DiagnosisPatient(patient);
         Console.WriteLine($"Ваш статус здоровья: {patient.health}");
         Console.WriteLine("Хотите оставить отзыв о докторе? ДА - 1, НЕТ - 2");

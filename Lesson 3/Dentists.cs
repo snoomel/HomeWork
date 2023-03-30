@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 namespace HomeWork3; 
 public abstract class Dentists
 {
-    public string surname { get; set; } = "Неизвестно";
-    public string name { get; set; } = "Неизвестно";
-    public string patronymic { get; set; } = "Неизвестно";
-    public int age { get; set; } = 1;
-    public int experience { get; set; } = 1;
-    public string university { get; set; } = "Неизвестно";
+    string surname { get; set; } = "Неизвестно";
+    string name { get; set; } = "Неизвестно";
+    string patronymic { get; set; } = "Неизвестно";
+    int age { get; set; } = 1;
+    int experience { get; set; } = 1;
+    string university { get; set; } = "Неизвестно";
     public void DiagnosisPatient(Patient patient)
     {
         Console.WriteLine("Есть ли у вас жалобы? ДА - 1, НЕТ - 2");
